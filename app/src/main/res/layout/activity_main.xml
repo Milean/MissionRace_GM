@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="nl.milean.missionrace_gm.MainActivity">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname0"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission0" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker0" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve0"
+                android:onClick="actionApproveTeam0"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname1"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission1" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve1"
+                android:onClick="actionApproveTeam1"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname2"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission2" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker2" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve2"
+                android:onClick="actionApproveTeam2"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname3"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission3" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker3" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve3"
+                android:onClick="actionApproveTeam3"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname4"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission4" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker4" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve4"
+                android:onClick="actionApproveTeam4"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname5"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission5" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker5" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve5"
+                android:onClick="actionApproveTeam5"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname6"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission6" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker6" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve6"
+                android:onClick="actionApproveTeam6"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname7"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission7" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker7" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve7"
+                android:onClick="actionApproveTeam7"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname8"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission8" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker8" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve8"
+                android:onClick="actionApproveTeam8"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname9"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission9" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker9" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve9"
+                android:onClick="actionApproveTeam9"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname10"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission10" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker10" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve10"
+                android:onClick="actionApproveTeam10"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:id="@+id/teamname11"
+                android:hint="@string/teamname_hint"/>
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initMissionNo"
+                android:id="@+id/mission11" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"
+                android:text="@string/initTimeTracker"
+                android:id="@+id/timeTracker11" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:id="@+id/approve11"
+                android:onClick="actionApproveTeam11"
+                android:text="@string/button_text_approve"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MissionRace_GM</string>
+    <string name="button_text_approve">OK</string>
+    <string name="initMissionNo">0</string>
+    <string name="initTimeTracker">never</string>
+    <string name="teamname_hint">Enter a teamname...</string>
+    <string name="sharedpreferences">nl.milean.missionrace_gm.SHARED_PREFERENCES</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_map">Map</string>
+
+    <string name="PROJECT_ID">GM_APP_ANDROID_PROJ_ID</string>
+    <string name="PROJECT_NUMBER">GM_APP_ANDROID_PROJ_NUMBER</string>
+    <string name="GCM.Client.API_KEY">CLIENT_APP_SERVER_API_KEY</string>
+    <string name="GCM.GMApp.API_KEY">GM_APP_SERVER_API_KEY</string>
+    <string name="google_maps_key">GM_APP_ANDROID_API_KEY</string>
+</resources>
